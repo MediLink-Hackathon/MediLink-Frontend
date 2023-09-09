@@ -5,30 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Login.css">
+    <script src="Command.js"></script>
 </head>
 <body>
-    <form action="action_page.php" method="post
-  <div class="container">
-    <div class="wrapper">
-        <div class="leftside">
-        <h1>Welcome Back</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel faucibus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <input type="text" placeholder="Username / Email Adress" name="uname" required>
-
-        <input type="password" placeholder="Enter Password" name="psw" required>
-
-        <button type="submit">Login</button>
-        <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
+    <form action="action_page.php" method="post" >
+        <div class="header">
+            <p>sdfas</p>
         </div>
-    </div>  
-  </div>
+        <div class="wrapper">
+            <div class="leftside">
+                <div class="container">
+                <h1>Welcome Back</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel faucibus orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <input type="text" placeholder="Username / Email Adress" name="uname" required>
+                <br>
+                <input type="password" placeholder="Enter Password" name="psw" required>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+                <button type="submit">Login</button>
+                <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                <br>
+                <button type="button" class="cancelbtn">Cancel</button>
+                <span class="psw"><a href="#">Forgot password?</a></span>
+                </div>
+            </div>  
+            <div class="rightside" style="border-left: 3px solid black;margin-left: -6px;">
+                <div class="container">
+                    <h2>Don't have a mentaling account?</h2>
+                    <div class="space15"></div>
+                    <button type="button" onclick="goRegister()">Join our program</button>
+                    <div class="space50"></div>
+                    <button type="button" onclick="goVolunteer()">Volunteer</button>
+                </div>
+            </div>
+    </div>
 </form>
 
 </body>
