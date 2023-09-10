@@ -23,8 +23,8 @@ h2{
 }
 
 #subTitle{
-    font-size: 22px;
-    margin-top: 10p;
+    font-size: 30px;
+    margin-top: 10pX;
     margin-bottom: 0px;
 }
 
@@ -68,16 +68,16 @@ h2{
 #register{
     width: 35%;
     margin-top: 2px;
-    padding: 0;
+    padding: 3px;
     margin: auto;
     margin-left: 0%;
     border-radius: 30px;
 }
 
 #register2{
-    width: 50%;
+    width: 70%;
     margin-top: 2px;
-    padding: 0;
+    padding: 3px;
     margin: auto;
     margin-left: 0%;
     border-radius: 30px;
@@ -91,3 +91,50 @@ input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
   } 
+
+  input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } 
+
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } 
+
+  .bottonPad{
+    padding-top: 10%;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .butcont{
+    margin: auto;
+  }
+
+  button {
+    background-color: #E9B384;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

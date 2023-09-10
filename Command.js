@@ -1,5 +1,5 @@
 function goRegister(){
-    console.log("join")
+    window.location.href='RegisterPatient.html'
 }
 
 function goVolunteer(){
