@@ -1,0 +1,93 @@
+.containerBox{
+    display: flex;
+    border: 2px solid;
+    box-shadow: 0px 15px #7C9D96 inset;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 25%;
+    width: 50%;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: white;
+}
+
+h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
+#subTitle{
+    font-size: 22px;
+    margin-top: 10p;
+    margin-bottom: 0px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+}
+
+.wrapper{
+    display: grid;  
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-auto-rows: minmax(100p, auto);
+    align-self: center;
+
+}
+
+.leftside{
+    display: flex;
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.rightside{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 50%;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+#register{
+    width: 35%;
+    margin-top: 2px;
+    padding: 0;
+    margin: auto;
+    margin-left: 0%;
+    border-radius: 30px;
+}
+
+#register2{
+    width: 50%;
+    margin-top: 2px;
+    padding: 0;
+    margin: auto;
+    margin-left: 0%;
+    border-radius: 30px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } 
