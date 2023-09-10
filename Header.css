@@ -63,7 +63,7 @@
 
   .searchDiv{
     display: flex;
-    display: absolute;
+    vertical-align: middle;
     width: 50%;
   }
 

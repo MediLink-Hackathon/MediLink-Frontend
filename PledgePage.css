@@ -29,7 +29,7 @@ h2{
     font-size: 17px;
     position:relative;
     top: 15%;
-    left: 25%;
+    left: 20%;
 }
 
 hr{
@@ -44,18 +44,19 @@ hr{
     position: relative;
     display: flex;
     top: 120px;
-    left: 10%;
+    left: 9.2%;
 }
 
 .imgPledge{
     display: flex;
     float: right;
     height: 30%;
-    width: 35%;
+    width: 45%;
     padding: 8px 16px;
     position:relative;
     align-items: right;
-    top: 10%;
+    top: 5%;
+    
 }
 
 
@@ -64,11 +65,7 @@ hr{
     box-sizing: border-box;
 }
  
-body,
-html {
-    height: 100%;
-    min-height: 100%;
-}
+
  
 body {
     font-family: 'Roboto',
@@ -79,6 +76,7 @@ body {
 
 /* Credit Card */
 .credit-card {
+    top: 700px;
     position:relative;
     width: 360px;
     height: 400px;
@@ -87,7 +85,7 @@ body {
     border-radius: 6px;
     background-color: #fff;
     box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
-    top:70%;
+    top: 250px;;
     
 }
 
@@ -104,7 +102,7 @@ body {
    
     height: 340px;
     padding: 30px 30px 20px;
-    top:10%;
+    top:2%;
 }
 
 
