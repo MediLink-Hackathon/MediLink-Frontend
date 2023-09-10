@@ -27,24 +27,21 @@ body{
 h1{
     font-size: 40px;
     position:relative;
-    top: 120px;
-    left: 0px;
-    width: 100%;
-    margin: 10;
+    padding-left: 50px;
+    
+    
 }
 
 h2{
     font-size: 40px;
     position:relative;
-    
-    left: 0px;
-    top: 160px;
+    padding-top: 50px;
     
 }
 
 .dropText  {
     position: relative;
-    top: -100px;
+    margin-top: -100px;
 }
 
 .buttonHelp{
@@ -60,20 +57,22 @@ h2{
     border-radius: 15px;
     background: var(--Color-3, #E9B384);
     position: relative;
-    left: 0px;
-    top: 50px;
+    padding-right: 10px;
+    margin-left: 50px;
 }
 
 .fillerText{
     position: relative;
     display: flex;
-    top: 15%;
-    left: 115px;
+    padding-top: 2px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
 }
 hr{
     position:relative;
     height: 0.5px;
-    top: 380px;
+    margin-top: 180px;
     background: #706767;
     width: 100%;
 }
@@ -94,26 +93,33 @@ hr{
     gap: 10px;
     flex-shrink: 0;
     border-radius: 15px;
-    top: 150px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
     
 }
 
 #leftBox{
     display: flex;
-
+    position:relative;
     float: left;
-    left:20%;
+    padding-top: 20px;
+    
+    padding-left: 50px;
+
 }
 
 #rightBox{
     display: flex;
+    position:relative;
     float: right;
-    right: 20%;
+    padding-top: 20px;
+    padding-right: 50px;
+    
 }
 
 #titleBoxes{
-    top: 0%;
-    left: 0;
+    padding-top: 20px;
 }
 
 #subtitleBox{
@@ -122,22 +128,25 @@ hr{
     left: 0;
 }
 #buttonBoxes{
-    top:90%;
-    left: 10%;
-    width: 80%;
+    margin-top: 2%;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width: 90%;
     height: 15%;
     padding: 8px 16px;
     font-size: 15px;
+    padding-left: 10px;
 }
 
 #imgBoxes{
     display: flex;
     width: 27%;
-    padding: 8px 16px;
-    height: 25%;
+    padding: auto;
+    height: 20%;
     position:relative;
     align-items: center;
-    left:25%;
+    margin-left: 32px;
+    
 }
 
 #headerBoxes{
@@ -145,6 +154,7 @@ hr{
     position:relative;
     width: 100%;
     margin: 10;
+    margin-top: 10px;
 }
 
 .imgFront{
@@ -155,6 +165,6 @@ hr{
     padding: 8px 16px;
     position:relative;
     align-items: right;
-    top: 3%;
-    right: 5%;   
+     
 }
+
