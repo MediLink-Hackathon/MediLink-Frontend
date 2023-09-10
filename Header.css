@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: Hammersmith;
     src: url(HammersmithOne-Regular.ttf);
@@ -72,7 +73,7 @@
 
   .banner{
     margin: 0;
-    padding: 3%;
+    padding: 1.5%;
     background-color: #A1CCD1;
     display: flex;
     flex-direction: row;
