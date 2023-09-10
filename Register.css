@@ -34,30 +34,6 @@ h2{
     padding: 0%;
 }
 
-.wrapper{
-    display: grid;  
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    grid-auto-rows: minmax(100p, auto);
-    align-self: center;
-
-}
-
-.leftside{
-    display: flex;
-    grid-column: 1;
-    grid-row: 1;
-    max-width: 100%;
-    flex-direction: column;
-}
-
-.rightside{
-    display: flex;
-    grid-column: 2;
-    grid-row: 1;
-    max-width: 50%;
-    flex-direction: column;
-}
 
 .text{
     font-size: 16px;
@@ -108,7 +84,25 @@ input[type=password] {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  } 
+  }
+
+  input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }  
+
+  input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }  
 
   .bottonPad{
     padding-top: 10%;
@@ -137,4 +131,5 @@ input[type=password] {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 7px;
   }

@@ -3,5 +3,5 @@ function goRegister(){
 }
 
 function goVolunteer(){
-    console.log("volunteer")
+    window.location.href='PledgePage.html'
 }
