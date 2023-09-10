@@ -72,4 +72,26 @@
 
   .banner{
     margin: 0;
+    padding: 3%;
+    background-color: #A1CCD1;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  .bannerLink{
+    color: black;
+    font-size: larger;
+    align-content: center;
+  }
+
+  a:visited{
+    color: black
+  }
+
+  .imageLink{
+    display: flex;
+    align-content: center;
+    vertical-align: middle;
   }

@@ -1,8 +1,4 @@
-/* Bordered form */
-form {
-    border: 3px;
-  }
-  
+
   /* Full-width inputs */
    input[type=text], input[type=password] {
     width: 100%;
