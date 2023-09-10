@@ -1,0 +1,132 @@
+@font-face{
+    font-family: Hammersmith;
+    src:url(hammersmithOne-Regular.ttf)
+
+}
+*{
+    
+    font-family: Hammersmith;
+}
+.mainMenu{
+    color: #000;
+    font-family:Hammersmith;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+h1{
+    font-size: 20px;
+    position:relative;
+    top: 120px;
+    left: 115px;
+}
+
+h2{
+    font-size: 17px;
+    position:relative;
+    top: 225px;
+    left: 120px;
+}
+
+.dropText  {
+    position: relative;
+    top: -100px;
+}
+
+.buttonHelp{
+    box-sizing: border-box;
+    display: flex;
+    width: 300px;
+    height: 43px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: var(--Color-3, #E9B384);
+    position: relative;
+    left: 120px;
+    top: 150px;
+}
+
+.fillerText{
+    position: relative;
+    display: flex;
+    top: 120px;
+    left: 115px;
+}
+hr{
+    position:relative;
+    height: 0.5px;
+    top: 370px;
+    background: #706767;
+    width: 100%;
+}
+
+.getInvolved{
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 20px;
+    border: 2px solid #706767;
+    background: var(--Color-2, #F4F2DE);
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+    position:relative;
+    width: 250px;
+    height: 350px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    top: 250px;
+    
+}
+
+#leftBox{
+    display: flex;
+
+    float: left;
+    left:20%;
+}
+
+#rightBox{
+    display: flex;
+    float: right;
+    right: 10%;
+}
+
+#titleBoxes{
+    top: 0%;
+    left: 0;
+}
+
+#subtitleBox{
+    font-size: 15px;
+    top: 0px;
+    left: 0;
+}
+#buttonBoxes{
+    top:90%;
+    left: 10%;
+    width: 80%;
+    height: 15%;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+#imgBoxes{
+    display: flex;
+    width: 27%;
+    padding: 8px 16px;
+    height: 25%;
+    position:relative;
+    align-items: center;
+    left:25%;
+}
