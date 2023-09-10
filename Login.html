@@ -5,13 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Header.css">
+    <link href='https://fonts.googleapis.com/css?family=Hammersmith One' rel='stylesheet'>
     <script src="Command.js"></script>
 </head>
 <body>
     <form action="action_page.php" method="post" >
+
         <div class="header">
-            <p>sdfas</p>
+            <p id="title">Mentalink</p>
+            <div class="searchDiv">
+                <input id="searchBar" type="text" placeholder="Search" name="search" unrequired>
+                <img class="search" src="Resources\search-outline.svg"/>
+            </div>
+            <img class="logo" src="Resources\home-outline.svg" alt="Home svg"/>
         </div>
+
+
         <div class="wrapper">
             <div class="leftside">
                 <div class="container">
@@ -23,7 +33,7 @@
 
                 <button type="submit">Login</button>
                 <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
+                <input id="rememberMe" type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
                 <br>
                 <button type="button" class="cancelbtn">Cancel</button>
@@ -31,8 +41,8 @@
                 </div>
             </div>  
             <div class="rightside" style="border-left: 3px solid black;margin-left: -6px;">
-                <div class="container">
-                    <h2>Don't have a mentaling account?</h2>
+                <div class="container2">
+                    <h2 class="center">Don't have a mentaling account?</h2>
                     <div class="space15"></div>
                     <button type="button" onclick="goRegister()">Join our program</button>
                     <div class="space50"></div>

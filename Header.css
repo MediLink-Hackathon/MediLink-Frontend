@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Hammersmith;
+    src: url(HammersmithOne-Regular.ttf);
+}
+.header{
+    margin: 10px;
+    background-color: #F4F2DE;
+    flex-direction: row;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #title{
+    font-family: Hammersmith;
+    -webkit-text-fill-color: #FFFFFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 48px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+    
+    
+  }
+
+  * {
+    font-family: Hammersmith;
+  }
+  
+  .search{
+    width: 30px;
+    margin: 4px;
+    vertical-align: middle
+
+  }
+
+  .logo{
+    width: 30px;
+    float: right;
+    margin: 4px;
+    vertical-align: middle;
+  }
+
+
+  #searchBar{
+    border-radius: 30px;
+    overflow: hidden;
+    align-self:self-end;
+    
+  }
+  .container {
+    padding: 10px;
+  }
+
+  #searchCont{
+    align-self:flex-end;
+    
+  }
+
+  .searchDiv{
+    display: flex;
+    display: absolute;
+    width: 50%;
+  }
+
+  #rememberMe{
+    margin: 2%;
+  }
+
+  .banner{
+    margin: 0;
+  }
