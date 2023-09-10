@@ -11,3 +11,7 @@ function goDocs(){
 function goDocs(){
     window.location.href='VolunteerRegister.html'
 }
+
+function goDonate(){
+    window.location.href='https://donate.stripe.com/test_9AQ6p99Bbefua3u288'
+}
