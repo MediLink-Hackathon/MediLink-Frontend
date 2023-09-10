@@ -8,6 +8,10 @@
     font-family: Hammersmith;
 }
 
+body{
+    background-color: #F4F2DE;
+}
+
 .mainMenu{
     color: #000;
     font-family:Hammersmith;
@@ -23,8 +27,8 @@
 h1{
     font-size: 40px;
     position:relative;
-    top: 20%;
-    left: 115px;
+    top: 120px;
+    left: 0px;
     width: 100%;
     margin: 10;
 }
@@ -32,8 +36,10 @@ h1{
 h2{
     font-size: 40px;
     position:relative;
+    
+    left: 0px;
     top: 160px;
-    left: 120px;
+    
 }
 
 .dropText  {
@@ -54,7 +60,7 @@ h2{
     border-radius: 15px;
     background: var(--Color-3, #E9B384);
     position: relative;
-    left: 120px;
+    left: 0px;
     top: 50px;
 }
 
