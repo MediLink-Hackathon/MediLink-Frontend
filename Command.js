@@ -15,3 +15,7 @@ function goDocs(){
 function goDonate(){
     window.location.href='https://donate.stripe.com/test_9AQ6p99Bbefua3u288'
 }
+
+function goHelpDaniel(){
+    window.location.href='helpSomeone.html'
+}
