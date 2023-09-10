@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" >
     <link rel="stylesheet" href="FrontPage.css">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title></title>
 
-        </script>
+   
 </head>
 <body style="background-color: #F4F2DE">
     <hr>
     
-<div class="container">
+<div >
    <h1 >We're here for you</h1>
 </div>
 <div class="fillerText">
@@ -26,7 +27,7 @@
     Find mental Health support today
 </div>
 
-<div class="container">
+<div >
     <h2 >Get involved</h2>
  </div>
     <div class="container">
@@ -35,10 +36,11 @@
     <h1 id="titleBoxes"> <img src="images/person1.PNG" alt="person1" id="imgBoxes"><br>Fundraise for mental health<br><br>
         <div id="subtitleBox">lorem ipsum<br><br></div>
 
-        <div class="container">
+        <div  id="clickableDiv">
             <div class="buttonHelp" id="buttonBoxes">
                 Make an impact
             </div>
+            </button>
         </div>
     </h1>
     </div>
@@ -49,7 +51,7 @@
     <h1 id="titleBoxes"><img src="images/person2.PNG" alt="person1" id="imgBoxes"><br>Partner with Mentalink<br><br>
         <div id="subtitleBox">lorem ipsum<br><br></div>
 
-        <div class="container">
+        <div  id="clickableDiv">
             <div class="buttonHelp" id="buttonBoxes">
                 Make a difference
             </div>
@@ -58,4 +60,16 @@
 </div>
  </div>
 </body>
+
+
+<script>
+    // Get a reference to the clickable div
+    var clickableDiv = document.getElementById('clickableDiv');
+
+    // Add a click event listener to the div
+    clickableDiv.addEventListener('click', function () {
+        // Redirect to the desired page
+        window.location.href = 'PledgePage.html';
+    });
+</script>
 </html>
