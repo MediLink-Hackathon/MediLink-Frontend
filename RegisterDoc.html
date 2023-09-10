@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Patient</title>
+    <title>Register Doctor</title>
     <link rel="stylesheet" href="Register.css">
     <link rel="stylesheet" href="Header.css">
 </head>
@@ -18,7 +18,6 @@
             <img class="logo" src="Resources\home-outline.svg" alt="Home svg"/>
         </a>
     </div>
-
     <div class="banner">
         <span><a href="https://www.helpguide.org/find-help.htm" class="bannerLink">Get Support</a></span>
         <span><a href="https://www.pinerest.org/" class="bannerLink">Get Involved</a></span>
@@ -69,10 +68,28 @@
             <input type="text" id="register" name="city" required>
         </div>
         <div class="contain">
-            <p class="text">Date Of Birth</p>
+            <p class="text">Date of Birth</p>
+            <p class="text">Especiality</p>
         </div>
         <div class="contain">
-            <input type="text" id="register" name="city" required>
+            <input type="text" id="register" name="DoB" required>
+            <input type="text" id="register" name="Esp" required>
+        </div>
+        <div class="contain">
+            <p class="text">License Number</p>
+            <p class="text">Practicing Since</p>
+        </div>
+        <div class="contain">
+            <input type="text" id="register" name="LicNum" required>
+            <input type="date" id="register" name="PracSince" required>
+        </div>
+        <div class="contain">
+            <p class="text">Psychologist Membership</p>
+            <p class="text">Fee Money</p>
+        </div>
+        <div class="contain">
+            <input type="text" id="register" name="PsyMem" required>
+            <input type="number" id="register" name="Fmoney" required>
         </div>
         <div class="butcont">
             <button type="submit">Register</button>
