@@ -5,3 +5,9 @@ function goRegister(){
 function goVolunteer(){
     window.location.href='VolunteerRegister.html'
 }
+function goDocs(){
+    window.location.href='VolunteerRegister.html'
+}
+function goDocs(){
+    window.location.href='VolunteerRegister.html'
+}

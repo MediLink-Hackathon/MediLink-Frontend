@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
        
     <title></title>
-
+    <script src="Command.js"></script>
    
 </head>
 
@@ -57,38 +57,20 @@
     <p1 id="headerBoxes"> <img src="images/person1.PNG" alt="person1" id="imgBoxes"><br>Fundraise for mental health<br><br>
         <div id="subtitleBox">lorem ipsum<br><br></p1></div>
 
-        <div  id="clickableDiv">
-            <p1 class="buttonHelp" id="buttonBoxes">
-                Make an impact
-            </p1>
-            
-        </div>
-    </h1>
-    
-    
+        <button class="button" id="buttonBoxes" onclick="goVolunteer()">
+                Make an impact 
+        </button>
  </div>
  
  <div class="getInvolved" id="rightBox">
     <p1 id="headerBoxes"><img src="images/person2.PNG" alt="person1" id="imgBoxes"><br>Partner with Mentalink<br><br>
-        <div id="subtitleBox">lorem ipsum<br></p1></div>>
-
-            <div  id="clickableDiv">
-                <p1 class="buttonHelp" id="buttonBoxes">
+        <div id="subtitleBox">lorem ipsum<br><br></p1></div>
+            <button class="button"id="buttonBoxes" onclick="goDocs()" >
                     Make a difference
-                </p1>
-            </div>
+              
+            </button>
    </div> 
 </body>
 
 
-<script>
-    // Get a reference to the clickable div
-    var clickableDiv = document.getElementById('clickableDiv');
-
-    // Add a click event listener to the div
-    clickableDiv.addEventListener('click', function () {
-        // Redirect to the desired page
-        window.location.href = 'PledgePage.html';
-    });
-</script>
 </html>
