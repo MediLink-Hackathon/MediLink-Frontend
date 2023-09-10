@@ -18,9 +18,9 @@
 }
 
 h1{
-    font-size: 20px;
+    font-size: 40px;
     position:relative;
-    top: 120px;
+    top: 10%;
     left: 115px;
 }
 
@@ -35,7 +35,7 @@ h2{
 hr{
     position:relative;
     height: 0.5px;
-    top: 370px;
+    top: 390px;
     background: #706767;
     width: 100%;
 }
@@ -43,7 +43,7 @@ hr{
 .fillerText{
     position: relative;
     display: flex;
-    top: 120px;
+    top: 15%;
     left: 9.2%;
 }
 
@@ -76,7 +76,7 @@ body {
 
 /* Credit Card */
 .credit-card {
-    top: 700px;
+    top: 100px;
     position:relative;
     width: 360px;
     height: 400px;
@@ -85,7 +85,7 @@ body {
     border-radius: 6px;
     background-color: #fff;
     box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
-    top: 250px;;
+    
     
 }
 

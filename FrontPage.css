@@ -21,18 +21,18 @@
 
 
 h1{
-    font-size: 20px;
+    font-size: 40px;
     position:relative;
-    top: 120px;
+    top: 20%;
     left: 115px;
     width: 100%;
     margin: 10;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 40px;
     position:relative;
-    top: 225px;
+    top: 160px;
     left: 120px;
 }
 
@@ -55,19 +55,19 @@ h2{
     background: var(--Color-3, #E9B384);
     position: relative;
     left: 120px;
-    top: 150px;
+    top: 50px;
 }
 
 .fillerText{
     position: relative;
     display: flex;
-    top: 120px;
+    top: 15%;
     left: 115px;
 }
 hr{
     position:relative;
     height: 0.5px;
-    top: 370px;
+    top: 380px;
     background: #706767;
     width: 100%;
 }
@@ -88,7 +88,7 @@ hr{
     gap: 10px;
     flex-shrink: 0;
     border-radius: 15px;
-    top: 250px;
+    top: 150px;
     
 }
 
@@ -102,7 +102,7 @@ hr{
 #rightBox{
     display: flex;
     float: right;
-    right: 10%;
+    right: 20%;
 }
 
 #titleBoxes{
@@ -132,4 +132,23 @@ hr{
     position:relative;
     align-items: center;
     left:25%;
+}
+
+#headerBoxes{
+    font-size: 20px;
+    position:relative;
+    width: 100%;
+    margin: 10;
+}
+
+.imgFront{
+    display: flex;
+    float: right;
+    height: 18%;
+    width: 35%;
+    padding: 8px 16px;
+    position:relative;
+    align-items: right;
+    top: 3%;
+    right: 5%;   
 }
