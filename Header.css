@@ -93,6 +93,7 @@
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    box-shadow: 0 10PX 15px 1px rgba(0, 0, 0, 0.4);
   }
 
   .bannerLink{

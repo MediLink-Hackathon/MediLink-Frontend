@@ -5,3 +5,6 @@ function goRegister(){
 function goVolunteer(){
     window.location.href='PledgePage.html'
 }
+function goDocs(){
+    window.location.href='VolunteerRegister.html'
+}
